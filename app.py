@@ -9,7 +9,7 @@ dates = pd.date_range('2023-01-01', periods=100)
 prices = pd.DataFrame(np.random.randn(100, 3), index=dates, columns=['Stock1', 'Stock2', 'Stock3'])
 
 # Set page title
-st.set_page_config(page_title="QUANT HARP", layout="wide")
+st.set_page_config(page_title="Quant Harp", layout="wide")
 
 # Sidebar
 st.sidebar.title('QUANT HARP')
